@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+nav {
+  /* background: lightseagreen; */
+  background: #179FB2;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.content {
+  font-size: 20px;
+}
+
+img {
+  display: block;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(0%);
+}
+
+.navbar_all{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.menu-element  {
+
+  margin-left: 15px;
+}
+
+/* .Benefits {
+  margin: 15px;
+}
+
+
+.portfolio {
+  margin: 15px;
+}
+
+
+.contacts {
+  margin: 15px;
+}
+ */
+ .head_contacts{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
